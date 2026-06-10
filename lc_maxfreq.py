@@ -1,5 +1,4 @@
 #max_freq
-print("------------------Brute force------------------")
 nums=[1,4,7,8,13]
 
 
@@ -8,7 +7,7 @@ length=len(nums)
 nums.sort()
 freq_list=[]
 
-'''for i in range(-1, -length-1,-1):
+for i in range(-1, -length-1,-1):
     freq=1  #so basically we are saying: for this number, we count freq.
     knew=k
     for j in range(i-1, -(length+1),-1):
@@ -28,9 +27,3 @@ if freq_list != []:
     print(max(freq_list))
 else:
         print(1)
-print("----------------Brute force End----------------")
-
-print("-----------Optimal : Sliding Window------------")'''
-
-target_index=
-        
